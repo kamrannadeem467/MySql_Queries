@@ -21,6 +21,7 @@ CREATE TABLE users(
 );
 
 RENAME TABLE Practice TO My_Practice;
+
 ALTER TABLE users ADD COLUMN age INT;
 
 ALTER TABLE users CHANGE COLUMN age new_age int;
@@ -30,9 +31,13 @@ ALTER TABLE users DROP COLUMN new_age;
 TRUNCATE TABLE users;
 
 DROP TABLE users;
+
 DROP DATABASE practice;
 
 < ----  END DDL Queries  ---- >
 
 
 < ---    Data Manipulation Language --- >
+
+
+
