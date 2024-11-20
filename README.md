@@ -1,9 +1,13 @@
 # MySql_Queries
 
 MYSQL CRUD;
+
 C => CREATE
+
 R => READ
+
 U => UPDATE
+
 D => DELETE
 
 
@@ -12,6 +16,7 @@ D => DELETE
 CREATE , ALTER , DROP , TRUNCATE , RENAME
 
 CREATE DATABASE Practice;
+
 CREATE TABLE users(
 	id int PRIMARY KEY AUTO_INCREAMENT;
 	Name varchar(50),
